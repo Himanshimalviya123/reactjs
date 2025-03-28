@@ -26,13 +26,52 @@
 
 // =============================one top level element=====================================================
 
-const App=()=>{
-     return(
-      <>
-       <h1>welcome to react</h1>
-       <h1>i am developer</h1>
-      </>
-     )
-   }
-   export default App;
-   
+// const App=()=>{
+//      return(
+//       <>
+//        <h1>welcome to react</h1>
+//        <h1>i am developer</h1>
+//       </>
+//      )
+//    }
+//    export default App;
+  //  =============================
+  // const App=()=>{
+  //   return(
+  //    <>
+  //     enter name:<input type="text"/>
+  //     <br/>
+  //     enter city:<input type="text"/>
+  //    </>
+  //   )
+  // }
+  // export default App;
+  // ======================================
+  // import Cybrom from "./cybrom";
+
+
+  // const App=()=>{
+  //   return(
+  //    <>
+  //    <h1>welcome  to cybrom</h1>
+  //    < Cybrom/>           
+  //    </>
+  //   )
+  // }
+  // export default App;
+  // ==================================
+  import Header from "./header";
+  import Data from "./data";
+  import Footer from "./footer";
+  const App=()=>{
+       return(
+       <>
+        <h1>welcome  to cybrom</h1>
+        < Header/>  
+        <Data/>  
+        <Footer/>       
+        </>
+       )
+    }
+     export default App;
+    
