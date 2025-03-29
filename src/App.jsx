@@ -60,18 +60,29 @@
   // }
   // export default App;
   // ==================================
-  import Header from "./header";
-  import Data from "./data";
-  import Footer from "./footer";
-  const App=()=>{
-       return(
-       <>
-        <h1>welcome  to cybrom</h1>
-        < Header/>  
-        <Data/>  
-        <Footer/>       
+  // import Header from "./header";
+  // import Data from "./data";
+  // import Footer from "./footer";
+  // const App=()=>{
+  //      return(
+  //      <>
+  //       <h1>welcome  to cybrom</h1>
+  //       < Header/>  
+  //       <Data/>  
+  //       <Footer/>       
+  //       </>
+  //      )
+  //   }
+  //    export default App;
+    // ====================================component===================================
+    import Student from "./student"
+    const abc=()=>{
+      return(
+        <>
+        <h1>welcome to react class</h1>
+        <Student nm="himanshi" city="bhopal" sub="java"/>
+        <Student/>
         </>
-       )
+      )
     }
-     export default App;
-    
+    export default abc;
