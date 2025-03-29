@@ -75,14 +75,30 @@
   //   }
   //    export default App;
     // ====================================component===================================
-    import Student from "./student"
-    const abc=()=>{
-      return(
-        <>
-        <h1>welcome to react class</h1>
-        <Student nm="himanshi" city="bhopal" sub="java"/>
-        <Student/>
-        </>
-      )
-    }
-    export default abc;
+    // import Student from "./student"
+    // const abc=()=>{
+    //   return(
+    //     <>
+    //     <h1>welcome to react class</h1>
+    //     <Student nm="himanshi" city="bhopal" sub="java"/>
+      
+    //     </>
+    //   )
+    // }
+    // export default abc;
+import College from "./clg";
+const clg={
+name:"rgpv",
+ seats:45,
+ fees:45000
+}
+const abc=()=>{
+  return(
+    <>
+    <h1 align="center"> welcome to cybrom</h1>
+    <College clgname={clg.name}  seats={clg.seats} fees={clg.fees}/>
+    </>
+  )
+}
+
+export default abc;
