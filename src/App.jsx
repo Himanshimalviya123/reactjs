@@ -86,19 +86,121 @@
     //   )
     // }
     // export default abc;
-import College from "./clg";
-const clg={
-name:"rgpv",
- seats:45,
- fees:45000
-}
-const abc=()=>{
+// import College from "./clg";
+// const clg={
+// name:"rgpv",
+//  seats:45,
+//  fees:45000
+// }
+// const abc=()=>{
+//   return(
+//     <>
+//     <h1 align="center"> welcome to cybrom</h1>
+//     <College clgname={clg.name}  seats={clg.seats} fees={clg.fees}/>
+//     </>
+//   )
+// }
+
+// export default abc;
+// =================================map=============================================
+// const App=()=>{
+//   const student=["ramu","sanju","manju","ranju","tanju"];
+//   const ans=student.map((key)=>{
+//     return(
+//       <>
+//       <h1>{key}</h1>
+//       </>
+//     )
+//   });
+//   return(
+// <>
+
+// <h1 align="center"> welcome to cybrom</h1>
+// {ans}
+// </>
+//   )
+// }
+// export default App;
+// =========================================
+// const App=()=>{
+//   const student=["ramu","sanju","manju","ranju","tanju"];
+//   const ans=student.map((key)=>{
+//     return(
+//       <>
+//       <option>{key}</option>
+//       </>
+//     )
+//   });
+//   return(
+// <>
+
+// <h1 align="center"> welcome to cybrom</h1>
+// <select>{ans}</select>
+// </>
+//   )
+// }
+// export default App;
+// ============================
+const App=()=>{
+  const student=[{
+    "rollno":101,
+    "name":"himanshi",
+    "city":"bhopal",
+    "fees":45000
+  },
+  {
+    "rollno":102,
+    "name":"sanjay",
+    "city":"bhopal",
+    "fees":45000
+  },
+  {
+    "rollno":103,
+    "name":"manisha",
+    "city":"indore",
+    "fees":45000
+  },
+  {
+    "rollno":104,
+    "name":"anmol",
+    "city":"pune",
+    "fees":35000
+  },
+  {
+    "rollno":105,
+    "name":"shivani",
+    "city":"kolar",
+    "fees":55000
+  }
+];
+  const ans=student.map((key)=>{
+    return(
+      <>
+      <tr>
+        <td>{key.rollno}</td>
+        <td>{key.name}</td>
+        <td>{key.city}</td>
+        <td>{key.fees}</td>
+      </tr>
+      </>
+    )
+  });
   return(
-    <>
-    <h1 align="center"> welcome to cybrom</h1>
-    <College clgname={clg.name}  seats={clg.seats} fees={clg.fees}/>
-    </>
+<>
+
+<h1 align="center"> welcome to cybrom</h1>
+<hr/>
+<table border='1' width="400">
+  <tr>
+    <th>rollno</th>
+    <th>name</th>
+    <th>city</th>
+    <th>fees</th>
+  </tr>
+  {ans}
+</table>
+
+</>
   )
 }
-
-export default abc;
+export default App;
