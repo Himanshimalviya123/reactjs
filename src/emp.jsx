@@ -31,4 +31,4 @@ const EmpData=[
             "fees":55000
           }
         ];
-        export default EmpData;
+              export default EmpData;
