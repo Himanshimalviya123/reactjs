@@ -3,6 +3,8 @@
 // const age=20
 // const salary=34000
 
+
+
 // const App=()=>{
 //   return(
 //     <p>welcome to react i am {name} my age is {age} my salary {salary*2}</p>
@@ -205,26 +207,100 @@
 // }
 // export default App;
 // ====================================================================================
-import { BrowserRouter,Routes,Route } from "react-router-dom";
-import Layout from "./pages/layout";
-import Home from "./pages/home";
-import About from "./pages/about";
-import Contact from "./pages/contact";
+// import { BrowserRouter,Routes,Route } from "react-router-dom";
+// import Layout from "./pages/layout";
+// import Home from "./pages/home";
+// import About from "./pages/about";
+// import Contact from "./pages/contact";
+// import Notfound from "./pages/notfound";
+// const App=()=>{
+//   return(
+//     <>
+//     <BrowserRouter>
+//     <Routes>
+//       <Route path="/" element={<Layout/>}>
+
+//       <Route path="home" element={<Home/>}/>
+//       <Route path="about" element={<About/>}/>
+//       <Route path="contact" element={<Contact/>}/>
+//       <Route path="*" element={<Notfound/>}/>
+
+//       </Route>
+//     </Routes>
+
+//     </BrowserRouter>
+//     </>
+//   )
+// }
+// export default App;
+// ====================================( styling )=================
+// const Home=()=>{
+//   return(
+//       <>
+//       <h1 style={{color:"Red", fontFamily:"arial",textDecoration:"underline"}}>welcome to home page</h1>
+//       </>
+//   )
+// }
+// export default Home;
+// ==============================================
+// const Home=()=>{
+//   return(
+//       <>
+//       <div style={{border:"1px solid black",width:"400px",height:"300px",
+//         backgroundColor:"blue",color:"black",fontFamily:"arial",fontSize:"larger",borderRadius:"20px"}}>
+// <div style={{border:"1px solid black",width:"340px",height:"250px",
+//         backgroundColor:"yellow",color:"black",fontFamily:"arial",
+//         fontSize:"larger",borderRadius:"20px",margin:"25px",
+//         display:"flex" ,alignItems:"center",}}>
+//           <div style={{border:"1px solid black",width:"300px",height:"200px",
+//         backgroundColor:"orange",color:"black",fontFamily:"arial",
+//         fontSize:"larger",borderRadius:"20px",margin:"25px",
+//         display:"flex" ,textAlign:"center",lineHeight:"7",marginLeft:"30px"}}>
+//           cybrom
+//         </div>
+
+//       </div>
+//       </div>
+//       </>
+//   )
+// }
+// export default Home;
+// ===========================================================================
+// import Data from "./data";
+// import Bhopal from "./bhopal";
+// const APP=()=>{
+//   return(
+//       <>
+//       <h1 id="btn">this is data file</h1>
+//       <Data/>
+//       <Bhopal/>
+      
+//       </>
+//   )
+// }
+// export default APP;
+//=======================================================================================================================================
+import EmpData from "./emp";
+import Design from "./empdesing";
+
 const App=()=>{
+  const ans=EmpData.map((key)=><Design 
+    no={key.empno} 
+    nm={key.name} 
+    ct={key.city} 
+    fee={key.fees}/>);
+
   return(
     <>
-    <BrowserRouter>
-    <Routes>
-      <Route path="/" element={<Layout/>}>
-      <Route path="/" element={<Home/>}>
-      <Route path="/" element={<About/>}>
-      <Route path="/" element={<Contact/>}>
-      
-
-      </Route>
-    </Routes>
-
-    </BrowserRouter>
+    <table border="1" width="400">
+      <tr>
+        <th>Number</th>
+        <th>Name</th>
+        <th>City</th>
+        <th>Fees</th>
+      </tr>
+      {ans}
+    </table>
     </>
   )
 }

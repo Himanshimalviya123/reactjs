@@ -1,7 +1,7 @@
 const About=()=>{
     return(
         <>
-        <h1>welcome to home page</h1>
+        <h1>welcome to about page</h1>
         </>
     )
 }

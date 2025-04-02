@@ -1,12 +1,13 @@
-import { Link,outlet} from "react-router-dom";
+import { Link,Outlet} from "react-router-dom";
 const Layout=()=>{
     return(
         <>
-       <Link to="Home">home</Link>
-       <Link to="about"></Link>
+       <Link to="home">Home</Link>
+       <Link to="about">ABOUT</Link>
        <Link to="contact">CONTACT</Link>
+       {/* <Link to="*">NOTFOUND</Link> */}
        <hr size="4" color="red" />
-       <outlet/>
+       <Outlet/>
        <hr size="4" color="red"/>
        www.mycompany.com al right reserved
         </>
