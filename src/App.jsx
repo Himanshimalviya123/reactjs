@@ -280,28 +280,28 @@
 // }
 // export default APP;
 //=======================================================================================================================================
-import EmpData from "./emp";
-import Design from "./empdesing";
+// import EmpData from "./emp";
+// import Design from "./empdesing";
 
-const App=()=>{
-  const ans=EmpData.map((key)=><Design 
-    no={key.empno} 
-    nm={key.name} 
-    ct={key.city} 
-    fee={key.fees}/>);
+// const App=()=>{
+//   const ans=EmpData.map((key)=><Design 
+//     no={key.empno} 
+//     nm={key.name} 
+//     ct={key.city} 
+//     fee={key.fees}/>);
 
-  return(
-    <>
-    <table border="1" width="400">
-      <tr>
-        <th>Number</th>
-        <th>Name</th>
-        <th>City</th>
-        <th>Fees</th>
-      </tr>
-      {ans}
-    </table>
-    </>
-  )
-}
-export default App;
+//   return(
+//     <>
+//     <table border="1" width="400">
+//       <tr>
+//         <th>Number</th>
+//         <th>Name</th>
+//         <th>City</th>
+//         <th>Fees</th>
+//       </tr>
+//       {ans}
+//     </table>
+//     </>
+//   )
+// }
+// export default App;
