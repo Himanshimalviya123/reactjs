@@ -266,19 +266,19 @@
 // }
 // export default Home;
 // ===========================================================================
-// import Data from "./data";
-// import Bhopal from "./bhopal";
-// const APP=()=>{
-//   return(
-//       <>
-//       <h1 id="btn">this is data file</h1>
-//       <Data/>
-//       <Bhopal/>
+import Data from "./data";
+import Bhopal from "./bhopal";
+const APP=()=>{
+  return(
+      <>
+      <h1 id="btn">this is data file</h1>
+      <Data/>
+      <Bhopal/>
       
-//       </>
-//   )
-// }
-// export default APP;
+      </>
+  )
+}
+export default APP;
 //=======================================================================================================================================
 // import EmpData from "./emp";
 // import Design from "./empdesing";
