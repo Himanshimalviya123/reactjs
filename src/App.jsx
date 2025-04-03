@@ -325,159 +325,157 @@
 // }
 // export default APP;
 // =======================================================**********************
-// import Container from 'react-bootstrap/Container';
-// import Nav from 'react-bootstrap/Nav';
-// import Navbar from 'react-bootstrap/Navbar';
+import Container from 'react-bootstrap/Container';
+import Nav from 'react-bootstrap/Nav';
+import Navbar from 'react-bootstrap/Navbar';
 
-// import Carousel from 'react-bootstrap/Carousel';
-// import img1 from "./images/carousel-1.jpg";
-// import img2 from "./images/carousel-3.jpg";
-// import img3 from "./images/carousel-1.jpg";
+import Carousel from 'react-bootstrap/Carousel';
+import img1 from "./images/carousel-1.jpg";
+import img2 from "./images/carousel-3.jpg";
+import img3 from "./images/carousel-1.jpg";
 
-// import Button from 'react-bootstrap/Button';
-// import Card from 'react-bootstrap/Card';
+import Button from 'react-bootstrap/Button';
+import Card from 'react-bootstrap/Card';
 
-// import Row from 'react-bootstrap/Row';
-// import Col from 'react-bootstrap/Col';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
 
 
 
-// const App=()=>{
-//    return(
-//       <>
-//       <hr />
-//       <Navbar bg="primary" data-bs-theme="dark">
-//         <Container>
-//           <Navbar.Brand href="#home">Navbar</Navbar.Brand>
-//           <Nav className="me-auto">
-//             <Nav.Link href="#home">Home</Nav.Link>
-//             <Nav.Link href="#features">AboutUs </Nav.Link>
-//             <Nav.Link href="#features">Classes  </Nav.Link>
-//             <Nav.Link href="#features">Pages 
+const App=()=>{
+   return(
+      <>
+      <hr />
+      <Navbar bg="primary" data-bs-theme="dark">
+        <Container>
+          <Navbar.Brand href="#home">Navbar</Navbar.Brand>
+          <Nav className="me-auto">
+            <Nav.Link href="#home">Home</Nav.Link>
+            <Nav.Link href="#features">AboutUs </Nav.Link>
+            <Nav.Link href="#features">Classes  </Nav.Link>
+            <Nav.Link href="#features">Pages 
              
-//             </Nav.Link>
-//             <Nav.Link href="#pricing">Contact</Nav.Link>
-//           </Nav>
-//         </Container>
-//       </Navbar>
-//       <Carousel>
-//       <Carousel.Item>
-//          <img src={img1} width="100%" height="400px"/>
-//         <Carousel.Caption>
-//           <h3 style={{fontFamily:"cursive",fontSize:"70px",}}><b>The Best Kindergarden School For Your Child</b></h3>
-//           <p>vero elitr justo clita lorem .Ipsum dolor at sed sit diam no. kasd rebum ipsum et diam justo cilta et kasd rebum sea elitr.</p>
-//         </Carousel.Caption>
-//       </Carousel.Item>
-//       <Carousel.Item>
-//       <img src={img2}  width="100%" height="400px"/>
-//         <Carousel.Caption>
-//           <h3 style={{fontFamily:"cursive",fontSize:"70px",}}><b>Make A Brighter Future For Your Child</b></h3>
-//           <p>vero elitr justo clita lorem .Ipsum dolor at sed sit diam no. kasd rebum ipsum et diam justo cilta et kasd rebum sea elitr.</p>
-//         </Carousel.Caption>
-//       </Carousel.Item>
-//       <Carousel.Item>
-//       <img src={img3}  width="100%" height="400px"/> 
-//         <Carousel.Caption>
-//           <h3 style={{fontFamily:"cursive",fontSize:"70px",}}><b>The Best Kindergarden School For Your Child</b></h3>
-//           <p>
-//           vero elitr justo clita lorem .Ipsum dolor at sed sit diam no. kasd rebum ipsum et diam justo cilta et kasd rebum sea elitr.
-//           </p>
-//         </Carousel.Caption>
-//       </Carousel.Item>
-//     </Carousel>
+            </Nav.Link>
+            <Nav.Link href="#pricing">Contact</Nav.Link>
+          </Nav>
+        </Container>
+      </Navbar>
+      <Carousel>
+      <Carousel.Item>
+         <img src={img1} width="100%" height="400px"/>
+        <Carousel.Caption>
+          <h3 style={{fontFamily:"cursive",fontSize:"70px",}}><b>The Best Kindergarden School For Your Child</b></h3>
+          <p>vero elitr justo clita lorem .Ipsum dolor at sed sit diam no. kasd rebum ipsum et diam justo cilta et kasd rebum sea elitr.</p>
+        </Carousel.Caption>
+      </Carousel.Item>
+      <Carousel.Item>
+      <img src={img2}  width="100%" height="400px"/>
+        <Carousel.Caption>
+          <h3 style={{fontFamily:"cursive",fontSize:"70px",}}><b>Make A Brighter Future For Your Child</b></h3>
+          <p>vero elitr justo clita lorem .Ipsum dolor at sed sit diam no. kasd rebum ipsum et diam justo cilta et kasd rebum sea elitr.</p>
+        </Carousel.Caption>
+      </Carousel.Item>
+      <Carousel.Item>
+      <img src={img3}  width="100%" height="400px"/> 
+        <Carousel.Caption>
+          <h3 style={{fontFamily:"cursive",fontSize:"70px",}}><b>The Best Kindergarden School For Your Child</b></h3>
+          <p>
+          vero elitr justo clita lorem .Ipsum dolor at sed sit diam no. kasd rebum ipsum et diam justo cilta et kasd rebum sea elitr.
+          </p>
+        </Carousel.Caption>
+      </Carousel.Item>
+    </Carousel>
 
 
-//    <div>
-//     <center><h1>SCHOOL FACILITIES</h1></center>
-//    </div>
-//     <Container>
-//       <Row>
-//         <Col>
-//         <Card style={{ width: '18rem' }}>
-//       <Card.Img variant="top" src={img1} />
-//       <Card.Body>
-//         <Card.Title>Card Title</Card.Title>
-//         <Card.Text>
-//           Some quick example text to build on the card title and make up the
-//           bulk of the card's content.
-//         </Card.Text>
-//         <Button variant="primary">Go somewhere</Button>
-//       </Card.Body>
-//     </Card></Col>
+   <div>
+    <center><h1>SCHOOL FACILITIES</h1></center>
+   </div>
+    <Container>
+      <Row>
+        <Col>
+        <Card style={{ width: '18rem' }}>
+      <Card.Img variant="top" src={img1} />
+      <Card.Body>
+        <Card.Title>Card Title</Card.Title>
+        <Card.Text>
+          Some quick example text to build on the card title and make up the
+          bulk of the card's content.
+        </Card.Text>
+        <Button variant="primary">Go somewhere</Button>
+      </Card.Body>
+    </Card></Col>
 
-//     <Col>
-//         <Card style={{ width: '18rem' }}>
-//       <Card.Img variant="top" src={img2} />
-//       <Card.Body>
-//         <Card.Title>Card Title</Card.Title>
-//         <Card.Text>
-//           Some quick example text to build on the card title and make up the
-//           bulk of the card's content.
-//         </Card.Text>
-//         <Button variant="primary">Go somewhere</Button>
-//       </Card.Body>
-//     </Card>
-//     </Col>
+    <Col>
+        <Card style={{ width: '18rem' }}>
+      <Card.Img variant="top" src={img2} />
+      <Card.Body>
+        <Card.Title>Card Title</Card.Title>
+        <Card.Text>
+          Some quick example text to build on the card title and make up the
+          bulk of the card's content.
+        </Card.Text>
+        <Button variant="primary">Go somewhere</Button>
+      </Card.Body>
+    </Card>
+    </Col>
 
-//     <Col>
-//         <Card style={{ width: '18rem' }}>
-//       <Card.Img variant="top" src={img3} />
-//       <Card.Body>
-//         <Card.Title>Card Title</Card.Title>
-//         <Card.Text>
-//           Some quick example text to build on the card title and make up the
-//           bulk of the card's content.
-//         </Card.Text>
-//         <Button variant="primary">Go somewhere</Button>
-//       </Card.Body>
-//     </Card></Col>
-//       </Row>
-//     </Container>
+    <Col>
+        <Card style={{ width: '18rem' }}>
+      <Card.Img variant="top" src={img3} />
+      <Card.Body>
+        <Card.Title>Card Title</Card.Title>
+        <Card.Text>
+          Some quick example text to build on the card title and make up the
+          bulk of the card's content.
+        </Card.Text>
+        <Button variant="primary">Go somewhere</Button>
+      </Card.Body>
+    </Card></Col>
+      </Row>
+    </Container>
       
       
       
       
-//       <div> <h1>About Us</h1></div>
-//       <div>
-//       <Container>
-//       <Row>
-//         <Col>
-//         <Card style={{ width: "550px"}}>
-//       <Card.Body>
-//         <Card.Title >Learn More About  Our Work And Our Cultural Activities</Card.Title>
-//         <Card.Text>
-//           Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, delectus deserunt amet minus temporibus rerum id iusto modi corrupti, consequatur iure sit impedit natus aliquam non! At iusto blanditiis molestiae.
+      <div> <h1>About Us</h1></div>
+      <div>
+      <Container>
+      <Row>
+        <Col>
+        <Card style={{ width: "550px"}}>
+      <Card.Body>
+        <Card.Title >Learn More About  Our Work And Our Cultural Activities</Card.Title>
+        <Card.Text>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, delectus deserunt amet minus temporibus rerum id iusto modi corrupti, consequatur iure sit impedit natus aliquam non! At iusto blanditiis molestiae.
        
-//           Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet
+          Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet
 
-// Stet no et lorem dolor et diam, amet duo ut dolore vero eos. No stet est diam rebum amet diam ipsum. Clita clita labore, dolor duo nonumy clita sit at, sed sit sanctus dolor eos, ipsum labore duo duo sit no sea diam. Et dolor et kasd ea. Eirmod diam at dolor est vero nonumy magna.
+Stet no et lorem dolor et diam, amet duo ut dolore vero eos. No stet est diam rebum amet diam ipsum. Clita clita labore, dolor duo nonumy clita sit at, sed sit sanctus dolor eos, ipsum labore duo duo sit no sea diam. Et dolor et kasd ea. Eirmod diam at dolor est vero nonumy magna.
        
-//         </Card.Text>
-//         <Button variant="primary">Go somewhere</Button>
-//       </Card.Body>
-//     </Card></Col>
+        </Card.Text>
+        <Button variant="primary">Go somewhere</Button>
+      </Card.Body>
+    </Card></Col>
 
-//     <Col>
-//         <Card style={{ width:"480px"}}>
-//       <Card.Img variant="top" src={img3} />
-//       <Card.Body>
-//         <Card.Title>Card Title</Card.Title>
-//         <Card.Text>
-//           Some quick example text to build on the card title and make up the
-//           bulk of the card's content.
-//         </Card.Text>
-//         <Button variant="primary">Go somewhere</Button>
-//       </Card.Body>
-//     </Card></Col>
-//       </Row>
-//     </Container>
-//       </div>
-//       </>
-//    )
-// }
-// export default App;
-
-
+    <Col>
+        <Card style={{ width:"480px"}}>
+      <Card.Img variant="top" src={img3} />
+      <Card.Body>
+        <Card.Title>Card Title</Card.Title>
+        <Card.Text>
+          Some quick example text to build on the card title and make up the
+          bulk of the card's content.
+        </Card.Text>
+        <Button variant="primary">Go somewhere</Button>
+      </Card.Body>
+    </Card></Col>
+      </Row>
+    </Container>
+      </div>
+      </>
+   )
+}
+export default App;
 
 
 
@@ -486,28 +484,30 @@
 
 
 
-const Home=()=>{
-    return(
-         <>
-       <div style={{border:"1px solid black",width:"400px",height:"300px",
-           backgroundColor:"blue",color:"black",fontFamily:"arial",fontSize:"larger",borderRadius:"20px"}}>
-   <div style={{border:"1px solid black",width:"340px",height:"250px",
-           backgroundColor:"yellow",color:"black",fontFamily:"arial",
-           fontSize:"larger",borderRadius:"20px",margin:"25px",
-         display:"flex" ,alignItems:"center",}}>
-             <div style={{border:"1px solid black",width:"300px",height:"200px",
-           backgroundColor:"orange",color:"black",fontFamily:"arial",
-           fontSize:"larger",borderRadius:"20px",margin:"25px",
-        display:"flex" ,textAlign:"center",lineHeight:"7",marginLeft:"30px"}}>
-            cybrom
-           </div>
+
+
+// const Home=()=>{
+//     return(
+//          <>
+//        <div style={{border:"1px solid black",width:"400px",height:"300px",
+//            backgroundColor:"blue",color:"black",fontFamily:"arial",fontSize:"larger",borderRadius:"20px"}}>
+//    <div style={{border:"1px solid black",width:"340px",height:"250px",
+//            backgroundColor:"yellow",color:"black",fontFamily:"arial",
+//            fontSize:"larger",borderRadius:"20px",margin:"25px",
+//          display:"flex" ,alignItems:"center",}}>
+//              <div style={{border:"1px solid black",width:"300px",height:"200px",
+//            backgroundColor:"orange",color:"black",fontFamily:"arial",
+//            fontSize:"larger",borderRadius:"20px",margin:"25px",
+//         display:"flex" ,textAlign:"center",lineHeight:"7",marginLeft:"30px"}}>
+//             cybrom
+//            </div>
   
-         </div>
-  </div>
-        </>
-    )
-   }
-  export default Home;
+//          </div>
+//   </div>
+//         </>
+//     )
+//    }
+//   export default Home;
 
 
 
