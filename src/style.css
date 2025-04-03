@@ -8,3 +8,7 @@ body{
 #btn{
     color: aliceblue;
 }
+#mycard{
+    display:flex;
+    justify-content: space-between;
+}
