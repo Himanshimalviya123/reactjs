@@ -325,163 +325,243 @@
 // }
 // export default APP;
 // =======================================================**********************
-import Container from 'react-bootstrap/Container';
-import Nav from 'react-bootstrap/Nav';
-import Navbar from 'react-bootstrap/Navbar';
+// import Container from 'react-bootstrap/Container';
+// import Nav from 'react-bootstrap/Nav';
+// import Navbar from 'react-bootstrap/Navbar';
 
-import Carousel from 'react-bootstrap/Carousel';
-import img1 from "./images/carousel-1.jpg";
-import img2 from "./images/carousel-3.jpg";
-import img3 from "./images/carousel-1.jpg";
-import img4 from "./images/classes-1.jpg";
-import img5 from "./images/classes-2.jpg";
-import img6 from "./images/classes-6.jpg";
+// import Carousel from 'react-bootstrap/Carousel';
+// import img1 from "./images/carousel-1.jpg";
+// import img2 from "./images/carousel-3.jpg";
+// import img3 from "./images/carousel-1.jpg";
+// import img4 from "./images/classes-1.jpg";
+// import img5 from "./images/classes-2.jpg";
+// import img6 from "./images/classes-6.jpg";
 
-import Button from 'react-bootstrap/Button';
-import Card from 'react-bootstrap/Card';
+// import Button from 'react-bootstrap/Button';
+// import Card from 'react-bootstrap/Card';
 
-import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
+// import Row from 'react-bootstrap/Row';
+// import Col from 'react-bootstrap/Col';
 
 
 
-const App=()=>{
-   return(
-      <>
-      <hr />
-      <Navbar id="navbar" bg="primary" data-bs-theme="dark">
-        <Container>
-          <Navbar.Brand href="#home">Navbar</Navbar.Brand>
-          <Nav className="me-auto">
-            <Nav.Link href="#home">Home</Nav.Link>
-            <Nav.Link href="#features">AboutUs </Nav.Link>
-            <Nav.Link href="#features">Classes  </Nav.Link>
-            <Nav.Link href="#features">Pages 
+// const App=()=>{
+//    return(
+//       <>
+//       <center><h1>welcome to react</h1></center>
+//       <hr />
+//       <Navbar id="navbar" bg="primary" data-bs-theme="dark">
+//         <Container>
+//           <Navbar.Brand href="#home">Navbar</Navbar.Brand>
+//           <Nav className="me-auto">
+//             <Nav.Link href="#home">Home</Nav.Link>
+//             <Nav.Link href="#features">AboutUs </Nav.Link>
+//             <Nav.Link href="#features">Classes  </Nav.Link>
+//             <Nav.Link href="#features">Pages 
              
-            </Nav.Link>
-            <Nav.Link href="#pricing">Contact</Nav.Link>
-          </Nav>
-        </Container>
-      </Navbar>
-      <Carousel>
-      <Carousel.Item>
-         <img src={img1} width="100%" height="400px"/>
-        <Carousel.Caption>
-          <h3 style={{fontFamily:"cursive",fontSize:"70px",}}><b>The Best Kindergarden School For Your Child</b></h3>
-          <p>vero elitr justo clita lorem .Ipsum dolor at sed sit diam no. kasd rebum ipsum et diam justo cilta et kasd rebum sea elitr.</p>
-        </Carousel.Caption>
-      </Carousel.Item>
-      <Carousel.Item>
-      <img src={img2}  width="100%" height="400px"/>
-        <Carousel.Caption>
-          <h3 style={{fontFamily:"cursive",fontSize:"70px",}}><b>Make A Brighter Future For Your Child</b></h3>
-          <p>vero elitr justo clita lorem .Ipsum dolor at sed sit diam no. kasd rebum ipsum et diam justo cilta et kasd rebum sea elitr.</p>
-        </Carousel.Caption>
-      </Carousel.Item>
-      <Carousel.Item>
-      <img src={img3}  width="100%" height="400px"/> 
-        <Carousel.Caption>
-          <h3 style={{fontFamily:"cursive",fontSize:"70px",}}><b>The Best Kindergarden School For Your Child</b></h3>
-          <p>
-          vero elitr justo clita lorem .Ipsum dolor at sed sit diam no. kasd rebum ipsum et diam justo cilta et kasd rebum sea elitr.
-          </p>
-        </Carousel.Caption>
-      </Carousel.Item>
-    </Carousel>
+//             </Nav.Link>
+//             <Nav.Link href="#pricing">Contact</Nav.Link>
+//           </Nav>
+//         </Container>
+//       </Navbar>
+//       <Carousel>
+//       <Carousel.Item>
+//          <img src={img1} width="100%" height="400px"/>
+//         <Carousel.Caption>
+//           <h3 style={{fontFamily:"cursive",fontSize:"70px",}}><b>The Best Kindergarden School For Your Child</b></h3>
+//           <p>vero elitr justo clita lorem .Ipsum dolor at sed sit diam no. kasd rebum ipsum et diam justo cilta et kasd rebum sea elitr.</p>
+//         </Carousel.Caption>
+//       </Carousel.Item>
+//       <Carousel.Item>
+//       <img src={img2}  width="100%" height="400px"/>
+//         <Carousel.Caption>
+//           <h3 style={{fontFamily:"cursive",fontSize:"70px",}}><b>Make A Brighter Future For Your Child</b></h3>
+//           <p>vero elitr justo clita lorem .Ipsum dolor at sed sit diam no. kasd rebum ipsum et diam justo cilta et kasd rebum sea elitr.</p>
+//         </Carousel.Caption>
+//       </Carousel.Item>
+//       <Carousel.Item>
+//       <img src={img3}  width="100%" height="400px"/> 
+//         <Carousel.Caption>
+//           <h3 style={{fontFamily:"cursive",fontSize:"70px",}}><b>The Best Kindergarden School For Your Child</b></h3>
+//           <p>
+//           vero elitr justo clita lorem .Ipsum dolor at sed sit diam no. kasd rebum ipsum et diam justo cilta et kasd rebum sea elitr.
+//           </p>
+//         </Carousel.Caption>
+//       </Carousel.Item>
+//     </Carousel>
 
 
-   <div style={{background:"yellowgreen"}}>
-    <center><h1 style={{background:"orange"}}>SCHOOL FACILITIES</h1></center>
-   </div>
-    <Container style={{background:"yellowgreen"}}>
-      <Row>
-        <Col>
-        <Card style={{ width: '18rem',height:"450px", background:"pink" ,marginTop:"25px"}}>
-      <Card.Img style={{borderRadius:"50%",height:"250px",width:"250px", marginLeft:"20px"}} variant="top" src={img4} />
-      <Card.Body>
-        <center><Card.Title>Art & drawing</Card.Title></center>
-        <Card.Text>
-          Some quick example text to build on the card title and make up the
-          bulk of the card's content.
-        </Card.Text>
-        <center><Button style={{background:"yellowgreen"}} variant="primary">learn more</Button></center>
-      </Card.Body>
-    </Card></Col>
+//    <div style={{background:"yellowgreen"}}>
+//     <center><h1 style={{background:"black",color:"white"}}>SCHOOL FACILITIES</h1></center>
+//    </div>
+//     <Container>
+//       <Row>
+//         <Col>
+//         <Card style={{ width: '18rem',height:"450px", background:"pink" ,marginTop:"25px"}}>
+//       <Card.Img style={{borderRadius:"50%",height:"250px",width:"250px", marginLeft:"20px"}} variant="top" src={img4} />
+//       <Card.Body>
+//         <center><Card.Title>Art & drawing</Card.Title></center>
+//         <Card.Text>
+//           Some quick example text to build on the card title and make up the
+//           bulk of the card's content.
+//         </Card.Text>
+//         <center><Button style={{background:"yellowgreen"}} variant="primary">learn more</Button></center>
+//       </Card.Body>
+//     </Card></Col>
 
-    <Col>
-    <Card style={{ width: '18rem',height:"450px", background:"pink" ,marginTop:"25px"}}>
-    <Card.Img style={{borderRadius:"50%",height:"250px",width:"250px", marginLeft:"20px"}} variant="top" src={img5} />
-      <Card.Body>
-        <Card.Title>Color management</Card.Title>
-        <Card.Text>
-          Some quick example text to build on the card title and make up the
-          bulk of the card's content.
-        </Card.Text>
-        <center><Button style={{background:"yellowgreen"}} variant="primary">learn more</Button></center>
-      </Card.Body>
-    </Card>
-    </Col>
+//     <Col>
+//     <Card style={{ width: '18rem',height:"450px", background:"pink" ,marginTop:"25px"}}>
+//     <Card.Img style={{borderRadius:"50%",height:"250px",width:"250px", marginLeft:"20px"}} variant="top" src={img5} />
+//       <Card.Body>
+//         <Card.Title>Color management</Card.Title>
+//         <Card.Text>
+//           Some quick example text to build on the card title and make up the
+//           bulk of the card's content.
+//         </Card.Text>
+//         <center><Button style={{background:"yellowgreen"}} variant="primary">learn more</Button></center>
+//       </Card.Body>
+//     </Card>
+//     </Col>
 
-    <Col >
-    <Card style={{ width: '18rem',height:"450px", background:"pink" ,marginTop:"25px"}}>
-    <Card.Img style={{borderRadius:"50%",height:"250px",width:"250px", marginLeft:"20px"}} variant="top" src={img6} />
-      <Card.Body>
-        <Card.Title>general knowledge</Card.Title>
-        <Card.Text>
-          Some quick example text to build on the card title and make up the
-          bulk of the card's content.
-        </Card.Text>
-        <center><Button style={{background:"yellowgreen"}} variant="primary">learn more</Button></center>
-      </Card.Body>
-    </Card></Col>
-      </Row>
-    </Container>
+//     <Col >
+//     <Card style={{ width: '18rem',height:"450px", background:"pink" ,marginTop:"25px"}}>
+//     <Card.Img style={{borderRadius:"50%",height:"250px",width:"250px", marginLeft:"20px"}} variant="top" src={img6} />
+//       <Card.Body>
+//         <Card.Title>general knowledge</Card.Title>
+//         <Card.Text>
+//           Some quick example text to build on the card title and make up the
+//           bulk of the card's content.
+//         </Card.Text>
+//         <center><Button style={{background:"yellowgreen"}} variant="primary">learn more</Button></center>
+//       </Card.Body>
+//     </Card></Col>
+//       </Row>
+//     </Container>
       
       
       
       
-      <center><div> <h1 style={{background:"orange"}}>About Us</h1></div></center>
-      <div>
-      <Container>
-      <Row>
-        <Col>
-        <Card style={{ width: "550px"}}>
-      <Card.Body>
-        <Card.Title >Learn More About  Our Work And Our Cultural Activities</Card.Title>
-        <Card.Text>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, delectus deserunt amet minus temporibus rerum id iusto modi corrupti, consequatur iure sit impedit natus aliquam non! At iusto blanditiis molestiae.
+//       <center><div> <h1 style={{background:"black",color:"white"}}>About Us</h1></div></center>
+//       <div>
+//       <Container>
+//       <Row>
+//         <Col>
+//         <Card style={{ width: "550px"}}>
+//       <Card.Body>
+//         <Card.Title >Learn More About  Our Work And Our Cultural Activities</Card.Title>
+//         <Card.Text>
+//           Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, delectus deserunt amet minus temporibus rerum id iusto modi corrupti, consequatur iure sit impedit natus aliquam non! At iusto blanditiis molestiae.
        
-          Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet
+//           Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet
 
-Stet no et lorem dolor et diam, amet duo ut dolore vero eos. No stet est diam rebum amet diam ipsum. Clita clita labore, dolor duo nonumy clita sit at, sed sit sanctus dolor eos, ipsum labore duo duo sit no sea diam. Et dolor et kasd ea. Eirmod diam at dolor est vero nonumy magna.
+// Stet no et lorem dolor et diam, amet duo ut dolore vero eos. No stet est diam rebum amet diam ipsum. Clita clita labore, dolor duo nonumy clita sit at, sed sit sanctus dolor eos, ipsum labore duo duo sit no sea diam. Et dolor et kasd ea. Eirmod diam at dolor est vero nonumy magna.
        
-        </Card.Text>
-        <Button variant="primary">Go somewhere</Button>
-      </Card.Body>
-    </Card></Col>
+//         </Card.Text>
+//         <Button variant="primary">Go somewhere</Button>
+//       </Card.Body>
+//     </Card></Col>
 
-    <Col>
-        <Card style={{ width:"480px"}}>
-      <Card.Img variant="top" src={img3} />
-      <Card.Body>
-        <Card.Title>Card Title</Card.Title>
-        <Card.Text>
-          Some quick example text to build on the card title and make up the
-          bulk of the card's content.
-        </Card.Text>
-        <Button variant="primary">Go somewhere</Button>
-      </Card.Body>
-    </Card></Col>
-      </Row>
-    </Container>
-      </div>
+//     <Col>
+//         <Card style={{ width:"480px"}}>
+//       <Card.Img variant="top" src={img3} />
+//       <Card.Body>
+//         <Card.Title>Card Title</Card.Title>
+//         <Card.Text>
+//           Some quick example text to build on the card title and make up the
+//           bulk of the card's content.
+//         </Card.Text>
+//         <Button variant="primary">Go somewhere</Button>
+//       </Card.Body>
+//     </Card></Col>
+//       </Row>
+//     </Container>
+//       </div>
       
     
-</>  
- )
-   }
+// </>  
+//  )
+//    }
 
+// export default App;
+
+// =============================================(website end)====================================================================
+// =================================event listener===========================================
+// const App=()=>{
+//   const display=()=>{
+//     alert("this is event in react js");
+//   }
+// return(
+//   <>
+//   <h1>welcome</h1>
+//   <button onClick={display}>click here</button>
+//   </>
+// )
+// }
+// export default App;
+// =============================argument passing======================================
+// const App=()=>{
+//   const Myname=(nm)=>{
+//     alert(`my name is $(nm)`);
+//   }
+// return(
+//   <>
+//   <h1>welcome</h1>
+//   <button onClick={()=>{Myname("himanshi")}}>click here</button>
+//   </>
+// )
+// }
+// export default App;
+// ============================================  ( event  ) ======================================
+// const App=()=>{
+//   const display=(e)=>{
+//     // alert(e);                  // output:-object
+//       // alert(e.type);           // output:-click
+//        alert("Type :" + e.type+ "name :"+ e.target.name+" value :"+e.target.value) ;            //output:-Type :clickname :btn1 value :mybtn
+//   }
+// return(
+//   <>
+//   <h1>welcome</h1>
+//   <button name="btn1" value="mybtn" onClick={display}>click here</button>
+//   </>
+// )
+// }
+// export default App;
+// ====================================================================
+// const App=()=>{
+//   const myshow=(e)=>{
+//       console.log(e);
+//       console.log(e.target.value);
+//       console.log(e.target.name);
+//                               //my show ko indicate kerta hai
+//   }
+// return(
+//   <>
+//   enter name:
+// <input name="himanshi" value="abc" type="text" onClick={myshow}/>
+//   </>
+// )
+// }
+// export default App;
+
+// ================================================
+const App=()=>{
+  const display=(nm,e)=>{
+     alert("Name :"+ nm +"btnName"+ e.target.name+ "value :"+ e.target.value);
+  }
+return(
+  <>
+ <button name="mybtn" value="btn0" onClick={(e)=>{display("neeraj",e)}}>click here</button>
+  </>
+)
+}
 export default App;
+
+
+
+
+
+
+
 
 
 
