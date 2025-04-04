@@ -346,7 +346,7 @@ const App=()=>{
    return(
       <>
       <hr />
-      <Navbar bg="primary" data-bs-theme="dark">
+      <Navbar id="navbar" bg="primary" data-bs-theme="dark">
         <Container>
           <Navbar.Brand href="#home">Navbar</Navbar.Brand>
           <Nav className="me-auto">
@@ -387,48 +387,48 @@ const App=()=>{
     </Carousel>
 
 
-   <div>
-    <center><h1>SCHOOL FACILITIES</h1></center>
+   <div style={{background:"yellowgreen"}}>
+    <center><h1 style={{background:"orange"}}>SCHOOL FACILITIES</h1></center>
    </div>
-    <Container>
+    <Container style={{background:"yellowgreen"}}>
       <Row>
         <Col>
-        <Card style={{ width: '18rem' }}>
-      <Card.Img variant="top" src={img1} />
+        <Card style={{ width: '18rem',height:"400px", background:"pink" ,marginTop:"25px",bor}}>
+      <Card.Img style={{borderRadius:"50%",height:"250px",width:"250px", marginLeft:"20px"}} variant="top" src={img1} />
       <Card.Body>
-        <Card.Title>Card Title</Card.Title>
+        <center><Card.Title>Art & drawing</Card.Title></center>
         <Card.Text>
           Some quick example text to build on the card title and make up the
           bulk of the card's content.
         </Card.Text>
-        <Button variant="primary">Go somewhere</Button>
+        <center><Button style={{background:"yellowgreen"}} variant="primary">learn more</Button></center>
       </Card.Body>
     </Card></Col>
 
     <Col>
-        <Card style={{ width: '18rem' }}>
-      <Card.Img variant="top" src={img2} />
+    <Card style={{ width: '18rem',height:"400px", background:"pink" ,marginTop:"25px"}}>
+    <Card.Img style={{borderRadius:"50%",height:"250px",width:"250px", marginLeft:"20px"}} variant="top" src={img2} />
       <Card.Body>
         <Card.Title>Card Title</Card.Title>
         <Card.Text>
           Some quick example text to build on the card title and make up the
           bulk of the card's content.
         </Card.Text>
-        <Button variant="primary">Go somewhere</Button>
+        <center><Button style={{background:"yellowgreen"}} variant="primary">learn more</Button></center>
       </Card.Body>
     </Card>
     </Col>
 
-    <Col>
-        <Card style={{ width: '18rem' }}>
-      <Card.Img variant="top" src={img3} />
+    <Col >
+    <Card style={{ width: '18rem',height:"400px", background:"pink" ,marginTop:"25px"}}>
+    <Card.Img style={{borderRadius:"50%",height:"250px",width:"250px", marginLeft:"20px"}} variant="top" src={img3} />
       <Card.Body>
-        <Card.Title>Card Title</Card.Title>
+        <Card.Title>general knowledge</Card.Title>
         <Card.Text>
           Some quick example text to build on the card title and make up the
           bulk of the card's content.
         </Card.Text>
-        <Button variant="primary">Go somewhere</Button>
+        <center><Button style={{background:"yellowgreen"}} variant="primary">learn more</Button></center>
       </Card.Body>
     </Card></Col>
       </Row>
@@ -437,7 +437,7 @@ const App=()=>{
       
       
       
-      <div> <h1>About Us</h1></div>
+      <center><div> <h1 style={{background:"orange"}}>About Us</h1></div></center>
       <div>
       <Container>
       <Row>
@@ -472,43 +472,14 @@ Stet no et lorem dolor et diam, amet duo ut dolore vero eos. No stet est diam re
       </Row>
     </Container>
       </div>
-      </>
-   )
-}
+      
+   
+    
+</>  
+ )
+   }
+
 export default App;
-
-
-
-
-
-
-
-
-
-
-// const Home=()=>{
-//     return(
-//          <>
-//        <div style={{border:"1px solid black",width:"400px",height:"300px",
-//            backgroundColor:"blue",color:"black",fontFamily:"arial",fontSize:"larger",borderRadius:"20px"}}>
-//    <div style={{border:"1px solid black",width:"340px",height:"250px",
-//            backgroundColor:"yellow",color:"black",fontFamily:"arial",
-//            fontSize:"larger",borderRadius:"20px",margin:"25px",
-//          display:"flex" ,alignItems:"center",}}>
-//              <div style={{border:"1px solid black",width:"300px",height:"200px",
-//            backgroundColor:"orange",color:"black",fontFamily:"arial",
-//            fontSize:"larger",borderRadius:"20px",margin:"25px",
-//         display:"flex" ,textAlign:"center",lineHeight:"7",marginLeft:"30px"}}>
-//             cybrom
-//            </div>
-  
-//          </div>
-//   </div>
-//         </>
-//     )
-//    }
-//   export default Home;
-
 
 
 
