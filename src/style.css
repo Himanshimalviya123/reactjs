@@ -15,3 +15,7 @@ body{
 #navbar{
     background-color: darkgray;
 }
+.me-auto{
+    display: flex;
+    justify-content: space-between;
+}

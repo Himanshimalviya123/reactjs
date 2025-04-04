@@ -333,6 +333,9 @@ import Carousel from 'react-bootstrap/Carousel';
 import img1 from "./images/carousel-1.jpg";
 import img2 from "./images/carousel-3.jpg";
 import img3 from "./images/carousel-1.jpg";
+import img4 from "./images/classes-1.jpg";
+import img5 from "./images/classes-2.jpg";
+import img6 from "./images/classes-6.jpg";
 
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
@@ -393,8 +396,8 @@ const App=()=>{
     <Container style={{background:"yellowgreen"}}>
       <Row>
         <Col>
-        <Card style={{ width: '18rem',height:"400px", background:"pink" ,marginTop:"25px",bor}}>
-      <Card.Img style={{borderRadius:"50%",height:"250px",width:"250px", marginLeft:"20px"}} variant="top" src={img1} />
+        <Card style={{ width: '18rem',height:"450px", background:"pink" ,marginTop:"25px"}}>
+      <Card.Img style={{borderRadius:"50%",height:"250px",width:"250px", marginLeft:"20px"}} variant="top" src={img4} />
       <Card.Body>
         <center><Card.Title>Art & drawing</Card.Title></center>
         <Card.Text>
@@ -406,10 +409,10 @@ const App=()=>{
     </Card></Col>
 
     <Col>
-    <Card style={{ width: '18rem',height:"400px", background:"pink" ,marginTop:"25px"}}>
-    <Card.Img style={{borderRadius:"50%",height:"250px",width:"250px", marginLeft:"20px"}} variant="top" src={img2} />
+    <Card style={{ width: '18rem',height:"450px", background:"pink" ,marginTop:"25px"}}>
+    <Card.Img style={{borderRadius:"50%",height:"250px",width:"250px", marginLeft:"20px"}} variant="top" src={img5} />
       <Card.Body>
-        <Card.Title>Card Title</Card.Title>
+        <Card.Title>Color management</Card.Title>
         <Card.Text>
           Some quick example text to build on the card title and make up the
           bulk of the card's content.
@@ -420,8 +423,8 @@ const App=()=>{
     </Col>
 
     <Col >
-    <Card style={{ width: '18rem',height:"400px", background:"pink" ,marginTop:"25px"}}>
-    <Card.Img style={{borderRadius:"50%",height:"250px",width:"250px", marginLeft:"20px"}} variant="top" src={img3} />
+    <Card style={{ width: '18rem',height:"450px", background:"pink" ,marginTop:"25px"}}>
+    <Card.Img style={{borderRadius:"50%",height:"250px",width:"250px", marginLeft:"20px"}} variant="top" src={img6} />
       <Card.Body>
         <Card.Title>general knowledge</Card.Title>
         <Card.Text>
@@ -473,7 +476,6 @@ Stet no et lorem dolor et diam, amet duo ut dolore vero eos. No stet est diam re
     </Container>
       </div>
       
-   
     
 </>  
  )
