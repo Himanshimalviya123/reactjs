@@ -105,24 +105,24 @@
 
 // export default abc;
 // =================================map=============================================
-// const App=()=>{
-//   const student=["ramu","sanju","manju","ranju","tanju"];
-//   const ans=student.map((key)=>{
-//     return(
-//       <>
-//       <h1>{key}</h1>
-//       </>
-//     )
-//   });
-//   return(
-// <>
+const App=()=>{
+  const student=["ramu","sanju","manju","ranju","tanju"];
+  const ans=student.map((key)=>{
+    return(
+      <>
+      <h1>{key}</h1>
+      </>
+    )
+  });
+  return(
+<>
 
-// <h1 align="center"> welcome to cybrom</h1>
-// {ans}
-// </>
-//   )
-// }
-// export default App;
+<h1 align="center"> welcome to cybrom</h1>
+{ans}
+</>
+  )
+}
+export default App;
 // =========================================
 // const App=()=>{
 //   const student=["ramu","sanju","manju","ranju","tanju"];
@@ -544,17 +544,17 @@
 // export default App;
 
 // ================================================
-const App=()=>{
-  const display=(nm,e)=>{
-     alert("Name :"+ nm +"btnName"+ e.target.name+ "value :"+ e.target.value);
-  }
-return(
-  <>
- <button name="mybtn" value="btn0" onClick={(e)=>{display("neeraj",e)}}>click here</button>
-  </>
-)
-}
-export default App;
+// const App=()=>{
+//   const display=(nm,e)=>{
+//      alert("Name :"+ nm +"btnName"+ e.target.name+ "value :"+ e.target.value);
+//   }
+// return(
+//   <>
+//  <button name="mybtn" value="btn0" onClick={(e)=>{display("neeraj",e)}}>click here</button>
+//   </>
+// )
+// }
+// export default App;
 
 
 
